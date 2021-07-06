@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&family=Yantramanav:wght@100;400;900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;800&family=Yantramanav:wght@100;400;900&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-4" style="font-family: 'Roboto Slab', serif;">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold fs-3" href="#">Academia</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Register
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">As Student</a></li>
+                      <li><a class="dropdown-item" href="#">As Teacher</a></li>
+                      <li><a class="dropdown-item" href="#">As Mentor</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <section class="hero-section">
+        <div class="container-fluid custombg mt-5">
+            <div class="container  pt-5 pb-5">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1 class="fw-bold">Check Our Courses</h1>
+                        <p class="subhead fs-4 mb-0 text-black-50">Learning Online Has Never Been Easier</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="card">
+                                <img src="images/announce.jpg" class="card-img-top" alt="First News">
+                                <div class="card-body p-4 rounded-bottom">
+                                  <h5 class="card-title">News</h5>
+                                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam molestias velit laudantium maxime doloribus veniam omnis dignissimos sed, a minus facere quas deserunt, eos dolorem.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <div class="card">
+                                <img src="images/announce2.jpg" class="card-img-top" alt="second News">
+                                <div class="card-body p-4 rounded-bottom">
+                                  <h5 class="card-title">News</h5>
+                                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam molestias velit laudantium maxime doloribus veniam omnis dignissimos sed, a minus facere quas deserunt, eos dolorem.</p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="card">
+                                <img src="images/announce3.jpg" class="card-img-top" alt="Third News">
+                                <div class="card-body p-4 rounded-bottom">
+                                  <h5 class="card-title">News</h5>
+                                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam molestias velit laudantium maxime doloribus veniam omnis dignissimos sed, a minus facere quas deserunt, eos dolorem.</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div> 
+                    </div>
+                    
+                </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5 text-center">
+            <h3>Our Popular Courses</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="containerbg">
+                  <img src="images/Math.jpg" class="card-img-top image" alt="image on math">
+                <div class="overlay">
+                  <a href="#" class="icon" title="Play"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>
+                </div>
+                </div>
+                <div class="card-body p-4 rounded-bottom">
+                  <h5 class="card-title fs-4">Math</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                  <a onclick="myFunction()" id="myBtn1">Read more</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item pt-1 pb-1"><i class="fa fa-user" aria-hidden="true"></i>&nbsp; Mr John Doe</li>
+                    <li class="list-group-item pt-1 pb-1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp; 200,000 enrollments</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="containerbg">
+                  <img src="images/teach.jpg" class="card-img-top image" alt="image on English">
+                <div class="overlay">
+                  <a href="#" class="icon" title="Play"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>
+                </div>
+                </div>
+                <div class="card-body p-4 rounded-bottom">
+                  <h5 class="card-title fs-4">English</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                  <a href="#" onclick="myFunction2()" id="myBtn2" style="color: black; text-decoration: none;"></a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item pt-1 pb-1"><i class="fa fa-user" aria-hidden="true"></i>&nbsp; Mr John Doe</li>
+                    <li class="list-group-item pt-1 pb-1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp; 150,000 enrollments</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="containerbg">
+                  <img src="images/skull.jpg" class="card-img-top image" alt="image on Biology">
+                <div class="overlay">
+                  <a href="#" class="icon" title="Play"><i class="fa fa-play fa-3x" aria-hidden="true"></i></a>
+                </div>
+                </div>
+                <div class="card-body p-4 rounded-bottom">
+                  <h5 class="card-title fs-4">Biology</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,<span id="dots3">...</span><span id="more3"> nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                  <a href="#" onclick="myFunction3()" id="myBtn3" style="color: black; text-decoration: none;"></a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item pt-1 pb-1"> <i class="fa fa-user" aria-hidden="true"></i>&nbsp; Mr John Doe</li>
+                    <li class="list-group-item pt-1 pb-1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp; 100,000 enrollments</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5 mb-5 text-center">
+            <h3>Favourite Teachers</h3>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/john1.jpg" class="card-img-top" alt="image of John">
+                <div class="card-body p-4 rounded-bottom">
+                  <h5 class="card-title">John Doe</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam molestias velit laudantium maxime doloribus veniam omnis dignissimos sed, a minus facere quas deserunt, eos dolorem.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item pt-1 pb-1"><i class="fa fa-book" aria-hidden="true"></i>&nbsp; Math</li>
+                  <li class="list-group-item pt-1 pb-1"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; 50,000 students</li>
+               </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/jane.jpg" class="card-img-top" alt="image of Jane">
+                <div class="card-body p-4 rounded-bottom">
+                  <h5 class="card-title">Jane Doe</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse rem quaerat blanditiis fugit, soluta vitae tempora, quas accusantium excepturi aperiam quia delectus! Iusto, qui.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item pt-1 pb-1"><i class="fa fa-book" aria-hidden="true"></i>&nbsp; Chemistry</li>
+                  <li class="list-group-item pt-1 pb-1"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; 40,000 students</li>
+               </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/john.jpg" class="card-img-top" alt="Image of John">
+                <div class="card-body p-4 rounded-bottom">
+                  <h5 class="card-title">John Doe</h5>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus provident quis aspernatur soluta eum repellendus ipsa architecto suscipit quam! Ipsum sequi dolor nesciunt fugiat aliquid.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item pt-1 pb-1"><i class="fa fa-book" aria-hidden="true"></i>&nbsp; Physics</li>
+                  <li class="list-group-item pt-1 pb-1"><i class="fa fa-users" aria-hidden="true"></i>&nbsp; 20,000 students</li>
+               </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+    </section>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script>
+      function myFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+      <script>
+        function myFunction() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+      
+     <!-- <script> 
+      function myFunction() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+        }
+      }
+    </script> -->
+</body>
+</html>
